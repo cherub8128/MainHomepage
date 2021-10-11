@@ -15,10 +15,10 @@ function Navigation() {
                 <NavLink className="navitem" activeClassName="nav-active" to="/articles"><ImPencil /><span className="navtext">연구</span></NavLink>
             </div>
             <div className="nav">
-                <NavLink className="navicon" activeClassName="nav-active" to={{  pathname:"https://github.com/cherub8128/"}} target="_blank"><ImGithub /></NavLink>
-                <NavLink className="navicon" activeClassName="nav-active" to={{  pathname:"https://www.instagram.com/cherub8128/"}} target="_blank"><ImBlog /></NavLink>
-                <NavLink className="navicon" activeClassName="nav-active" to={{  pathname:"https://fusionit.tistory.com/"}} target="_blank"><ImInstagram /></NavLink>
-                <NavLink className="navicon" activeClassName="nav-active" to={{  pathname:"keywordsky@gmail.com"}} target="_blank"><ImMail /></NavLink>
+                <NavLink className="navicon" to={{ pathname:"https://github.com/cherub8128/" }} target="_blank"><ImGithub /></NavLink>
+                <NavLink className="navicon" to={{ pathname:"https://www.instagram.com/cherub8128/" }} target="_blank"><ImBlog /></NavLink>
+                <NavLink className="navicon" to={{ pathname:"https://fusionit.tistory.com/" }} target="_blank"><ImInstagram /></NavLink>
+                <a className="navicon" href="mailto:keywordsky@gmail.com" target="_blank"><ImMail /></a>
             </div>
         </div>
     );
