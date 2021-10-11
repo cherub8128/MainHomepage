@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 0 100 900">
+    <path
+        d= "M0,0
+            h90
+            q10,0,10,10
+            v880
+            q0,10,-10,10
+            h-90
+            z
+        "
+        fill="#f5dfdf"
+        fill-opacity="50%"
+    />
+</svg>

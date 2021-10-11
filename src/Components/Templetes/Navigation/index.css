@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: fixed;
+    bottom: 0px;
+    z-index: 100;
+    opacity: 90%;
+    background: #011826;
+    height:50px;
+    width:100%;
+}
+.nav {
+    padding: 1px;
+    margin: 10px;
+}
+ul {
+    display: inline;
+    list-style: none;
+    margin: 1px;
+    padding: 0px;
+}
+li { display: inline; }
+.extra {
+    display: inline;
+    right: 10px;
+    position: fixed;
+}
+.logo {
+    display: inline;
+    left: 10px;
+    position: fixed;
+    height: 30px;
+    width: 30px;
+}
+a { color: #F2F2F2; text-decoration: none; }
+a:hover { color: #91CDF2; }
+a:active { color: #3B8DBF;}
+
+.navicon { margin: 0px 5px 0px; }
+.navitem { margin: 0px 15px 0px; }
+.nav-active { border-bottom: 3px solid #F2F2F2; }
