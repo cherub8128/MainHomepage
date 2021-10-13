@@ -1,5 +1,5 @@
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
-import Navigation from '../../Components/Templetes/Navigation';
+import { Navigation } from '../..';
 import { ReactComponent as NavLogo } from './img/nav_logo.svg';
 import './index.css'
 import Home from '../Home';
@@ -7,7 +7,7 @@ import Makes from '../Makes';
 import Profile from '../Profile'
 import Articles from '../Articles'
 
-function App() {
+export const App = () => {
   return (
     <div>
       <div className="logo"><NavLogo /></div>
@@ -24,5 +24,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

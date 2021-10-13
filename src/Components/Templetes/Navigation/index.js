@@ -5,7 +5,7 @@ import { FaHome } from 'react-icons/fa';
 import { ImProfile, ImPacman, ImPencil, ImGithub, ImInstagram, ImBlog, ImMail } from 'react-icons/im'
 
 
-function Navigation() {
+export const Navigation = () => {
     return (
         <div className="navbar">
             <div className="nav">
@@ -18,10 +18,8 @@ function Navigation() {
                 <NavLink className="navicon" to={{ pathname:"https://github.com/cherub8128/" }} target="_blank"><ImGithub /></NavLink>
                 <NavLink className="navicon" to={{ pathname:"https://www.instagram.com/cherub8128/" }} target="_blank"><ImBlog /></NavLink>
                 <NavLink className="navicon" to={{ pathname:"https://fusionit.tistory.com/" }} target="_blank"><ImInstagram /></NavLink>
-                <a className="navicon" href="mailto:keywordsky@gmail.com" target="_blank"><ImMail /></a>
+                <a className="navicon" href="mailto:keywordsky@gmail.com"><ImMail /></a>
             </div>
         </div>
     );
 }
-
-export default Navigation;
