@@ -1,16 +1,15 @@
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
-import { Navigation } from '../..';
-import { ReactComponent as NavLogo } from './img/nav_logo.svg';
-import './index.css'
-import Home from '../Home';
-import Makes from '../Makes';
-import Profile from '../Profile'
-import Articles from '../Articles'
+import Navigation from './Navigation';
+import Home from './Home';
+import Makes from './Makes';
+import Profile from './Profile'
+import Articles from './Articles'
+import { FloatingLogo } from '../Components'
 
-export const App = () => {
+export default function App() {
   return (
     <div>
-      <div className="logo"><NavLogo /></div>
+      <FloatingLogo />
       <BrowserRouter>
         <Navigation />
         <Switch>

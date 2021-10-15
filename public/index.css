@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 * { 
-    font-family: 'Noto Sans KR', sans-serif; 
+    font-family: 'Noto Sans KR', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 body {
     background-color: #F2F2F2;
+    font-size: 14px; 
     margin: 0px;
     padding: 0px;
 }
@@ -18,7 +19,7 @@ body {
 .atom-blue-2 { color: #023859; }
 .atom-blue-3 { color: #085A8C; }
 .atom-blue-4 { color: #3B8DBF; }
-.atom-blue-5 { color: #91CDF2; }
+.atom-blue-5 { color: #91cdf2; }
 
 .atom-red-1 { color: #260505; }
 .atom-red-2 { color: #590A0A; }
