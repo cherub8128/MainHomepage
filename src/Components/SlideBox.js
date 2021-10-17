@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { SildeLeftButton, SildeRightButton } from '..';
+import { SildeLeftButton, SildeRightButton } from '.';
 
 const Container = styled.div`
     position: relative;

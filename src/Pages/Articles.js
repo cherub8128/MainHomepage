@@ -1,10 +1,10 @@
 import React from 'react';
-import { SlideBox } from '../Components';
+import { SlideBox, Wrapper } from '../Components';
 
 export default function Articles() {
     return (
-        <div>
-            <SlideBox>테스트 중</SlideBox>
-        </div>
+        <Wrapper>
+            <SlideBox>공사 중</SlideBox>
+        </Wrapper>
     )
 }

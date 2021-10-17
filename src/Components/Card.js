@@ -6,7 +6,7 @@ const StyledCard = styled.div`
     height: ${props => `${props.xh*25 || 25}vh`}; */
     aspect-ratio: 1/1;
     padding: 2px;
-    margin: 3px;
+    margin: 5px;
     border-radius: 8px;
     background-color: #fff;
     box-shadow: 5px 5px 5px -5px rgb(13,13,13,0.1);
@@ -21,7 +21,7 @@ const StyledCard = styled.div`
 
 const StyledCardTitle = styled.h1`
     padding: 0px;
-    margin: 0px 0px 0px -2px;
+    margin: 0px 0px 0px 5px;
     border-bottom: 1px solid #91CDF221;
     font-size: 1.5em;
 `;

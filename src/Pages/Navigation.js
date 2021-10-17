@@ -14,10 +14,12 @@ const Nav = styled.div`
     background-color: #011826;
     height:50px;
     width:100%;
-    a { color: #F2F2F2; text-decoration: none;
+    a {
+        color: #F2F2F2;
+        text-decoration: none;
     }
     a:hover { color: #91CDF2; }
-    a:active { color: #3B8DBF;}
+    a:active { color: #3B8DBF; }
     .nav { margin: 0px 15px 3px; }
     .navicon { margin: 0px 0px 0px 10px; }
     .navitem  { margin: 0px 20px 0px 0px; }

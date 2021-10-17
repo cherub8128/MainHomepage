@@ -4,13 +4,14 @@ import styled from 'styled-components'
 const Container = styled.div`
     display: grid;
     grid-template-columns: repeat(auto-fill, 45vw);
-    grid-template-rows: repeat(auto-fill, 45vw);
+    grid-auto-rows: 45vw;
     grid-auto-flow: dense;
     gap: 2vw;
     @media screen and (min-width: 50em) {
         grid-template-columns: repeat(auto-fill, 30vw);
-        grid-template-rows: repeat(auto-fill, 30vw);
+        grid-auto-rows: 30vw; /* new row height is fixed 30vw */
     }
+
 `
 const Item = styled.div`
     grid-column: ${props => props.scol&&props.ecol? `${props.scol} / ${props.ecol}`:"auto"};

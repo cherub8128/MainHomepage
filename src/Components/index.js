@@ -1,11 +1,7 @@
-// Atoms
-export { Card, CardTitle } from './Atoms/Card';
-export { FloatingLogo } from './Atoms/FloatingLogo';
-export { SildeLeftButton, SildeRightButton } from './Atoms/SlideButton';
-
-// Molecules
-export { SlideBox } from './Molecules/SlideBox';
-
-// templetes
-export { NnGrid, NnGridItem } from './Templetes/NnGrid'
-
+export * from './GlobalStyle'
+export { Card, CardTitle } from './Card';
+export { FloatingLogo } from './FloatingLogo';
+export { Carousel } from './Carousel';
+export { SildeLeftButton, SildeRightButton } from './SlideButton';
+export { SlideBox } from './SlideBox';
+export { NnGrid, NnGridItem } from './NnGrid'
