@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
-
+//TODO: 대대적으로 CSS수정 요함
 const tonext = keyframes`
     75% { left: 0; }
     95% { left: 100%; }
@@ -33,6 +33,7 @@ const CarouselBase = styled.div`
     }
     height:100%;
     background-color: #fff;
+    
     div {
         scroll-snap-align: start;
         flex: none;

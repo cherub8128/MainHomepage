@@ -10,7 +10,7 @@ const LogoImg = styled.img`
     border-radius: 50%;
 `
 
-
+//TODO: 내용을 json으로 받아오기
 export default function Profile() {
     return (
         <Wrapper>
@@ -19,9 +19,10 @@ export default function Profile() {
             <ul>
                 <li>연혁
                     <ul>
-                        <li>2015.02. 인하대학교 수학교육과 졸업</li>
+                        <li>2016.02. 인하대학교 수학교육과 졸업</li>
                         <li>2017.03.~2020.02. 고등학교 수학교사 재직</li>
                         <li>2021.08. 정보처리기사 취득</li>
+                        <li>2021.12. 빅데이터기사 취득</li>
                     </ul>
                 </li>
                 <li>저서
