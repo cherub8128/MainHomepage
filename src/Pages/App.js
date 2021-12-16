@@ -1,4 +1,5 @@
-import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
+// import { BrowserRouter, Switch, Route, Redirect, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 import Navigation from './Navigation';
 import Home from './Home';
 import Makes from './Makes';
@@ -12,7 +13,7 @@ export default function App() {
   return (
     <div>
       <FloatingLogo />
-      <BrowserRouter>
+      <Router>
         <Navigation />
         <Switch>
           <Route path="/" exact={true} component={Home} />
@@ -22,7 +23,7 @@ export default function App() {
           <Route path="/privacy" component={Privacy} />
           <Redirect path="*" to="/"/>
         </Switch>
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }
