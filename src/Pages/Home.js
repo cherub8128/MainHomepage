@@ -9,9 +9,8 @@ const Home = () => {
                 <div id='2'>
                     <h1>현재 작업 중</h1>
                     <ol>
-                        <li>프로필 홈페이지 제작</li>
-                        <li>빅데이터 기사 실기 준비</li>
                         <li>Thinkloud 게임 제작</li>
+                        <li>프로필 홈페이지 제작</li>
                     </ol>
                 </div>
             </Carousel>

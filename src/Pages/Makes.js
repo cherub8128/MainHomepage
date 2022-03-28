@@ -16,11 +16,8 @@ function Makes() {
                 <Card>
                     <CardTitle>손게임</CardTitle>
                     <UList>
-                        <li><GoCheck/><a href="https://play.google.com/store/apps/details?id=com.TheHaGo.HandsGames" target="_blank" rel="noreferrer">구글 플레이 링크</a></li>
-                        <li><GoCheck/><a href="https://github.com/cherub8128/HandsGames" target="_blank" rel="noreferrer">Github 핵심 소스코드</a></li>
                         <li><GoCheck/>첫 유니티 제작 게임</li>
-                        <li><GoCheck/>이벤트를 이용한 멀티터치 구현에 신경썼다.</li>
-                        <li><GoCheck/>버전: 1.01</li>
+                        <li><GoCheck/>이벤트를 이용한 멀티터치 구현에 신경썼다 생각했지만 뒤돌아보면 많이 부족한 결과물</li>
                     </UList>
                 </Card>
                 <Card>
@@ -32,6 +29,10 @@ function Makes() {
                         <li><GoCheck/>리액트의 훅을 처음으로 활용함. 커스텀 훅으로 변경할 예정.</li>
                         <li><GoCheck/>버전: 0.12</li>
                     </UList>
+                </Card>
+                <Card>
+                    <CardTitle>Thinkloud</CardTitle>
+                    <li><GoCheck/>현재 제작 중인 몬스터 게임</li>
                 </Card>
             </NnGrid>
         </Wrapper>
